@@ -1,3 +1,4 @@
+process.chdir(__dirname)
 var server = require("express-modular-server")({
     http:true
 })

@@ -1,12 +1,12 @@
 {
     "name": "ts7680-demo-server",
-    "version": "1.0.0",
-    "description": "TS-7680 web server exposing GPIO, accelerometer, and ADC API endpoints",
+    "version": "1.0.1",
+    "description": "TS-7680 web server exposing GPIO, accelerometer, and ADC API endpoints in a browser interface",
     "main": "gpio-server.js",
     "dependencies": {
 	"express-modular-server": "^1.0.7",
 	"service-app": "^1.0.3",
-	"service-gpio": "^1.0.2",
+	"service-gpio": "^1.0.4",
 	"service-mma8451": "^1.0.3",
 	"service-mx28adc": "^1.0.4"
     },
