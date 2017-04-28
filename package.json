@@ -1,0 +1,27 @@
+{
+    "name": "ts7680-demo-server",
+    "version": "1.0.0",
+    "description": "TS-7680 web server exposing GPIO, accelerometer, and ADC API endpoints",
+    "main": "gpio-server.js",
+    "dependencies": {
+	"express-modular-server": "^1.0.7",
+	"service-app": "^1.0.3",
+	"service-gpio": "^1.0.2",
+	"service-mma8451": "^1.0.3",
+	"service-mx28adc": "^1.0.4"
+    },
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Michael Schmidt",
+    "repository": {
+	"type": "git",
+	"url": "git+ssh://git@github.com/embeddedarm/ts7680-demo-server.git"
+    },
+    "bugs": {
+	"url": "https://github.com/embeddedarm/ts7680-demo-server/issues"
+    },
+    "homepage": "https://github.com/embeddedarm/ts7680-demo-server#readme",
+    "author": "Michael Schmidt",
+    "license": "GPL-3.0"
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ts7680</title>
+	<script type="text/javascript" src="/ts7680.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/45.1/css/core/tooltip.css">
+        <link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/45.1/css/util/util.css">
+        <script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_format_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_default_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_ui_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_corechart_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_fw_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/third_party/dygraphs/dygraph-tickers-combined.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/third_party/webfontloader/webfont.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_line_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/45.1/js/jsapi_compiled_gauge_module.js"></script>
+    </head>
+    <body onload="ts7680_update(); adc_update()">
+      <div id="imgs">
+	<img id="led0000" src="/7680-0000.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0001" src="/7680-0001.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0010" src="/7680-0010.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0011" src="/7680-0011.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0100" src="/7680-0100.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0101" src="/7680-0101.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0110" src="/7680-0110.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led0111" src="/7680-0111.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1000" src="/7680-1000.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1001" src="/7680-1001.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1010" src="/7680-1010.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1011" src="/7680-1011.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1100" src="/7680-1100.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1101" src="/7680-1101.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1110" src="/7680-1110.JPG" onclick="toggle_led(event)" style="display: none;">
+	<img id="led1111" src="/7680-1111.JPG" onclick="toggle_led(event)" style="display: none;"></div>
+        <div>Click on LEDs to toggle</div>
+        <button id="button1" onclick="ts7680_update(this,event)">Refresh LEDs</button><button id="button2" onclick="accel(this,event)">Sample Accelerometer</button><br>
+        <div id="adc_chart" style="width: 800px; height: 120px;"></div>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/45.1/loader.js"></script>
+        <div id="accel_chart"></div>
+    </body>
+</html>
