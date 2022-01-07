@@ -16,12 +16,12 @@
     "author": "Michael Schmidt",
     "repository": {
 	"type": "git",
-	"url": "git+ssh://git@github.com/embeddedarm/ts7680-demo-server.git"
+	"url": "git+ssh://git@github.com/embeddedTS/ts7680-demo-server.git"
     },
     "bugs": {
-	"url": "https://github.com/embeddedarm/ts7680-demo-server/issues"
+	"url": "https://github.com/embeddedTS/ts7680-demo-server/issues"
     },
-    "homepage": "https://github.com/embeddedarm/ts7680-demo-server#readme",
+    "homepage": "https://github.com/embeddedTS/ts7680-demo-server#readme",
     "author": "Michael Schmidt",
     "license": "GPL-3.0"
 }

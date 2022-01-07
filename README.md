@@ -6,7 +6,7 @@ TS-7680 web server exposing GPIO, accelerometer, and ADC API endpoints in a brow
 
     npm install ts7680-demo-server
 
-This code is a demo specifically written for the Technologic Systems [TS-7680](https://wiki.embeddedarm.com/wiki/TS-7680).   It has not been tested on any other systems and it is not expected that it will work (and possibly not even compile) as-is on any other boards.
+This code is a demo specifically written for the embeddedTS [TS-7680](https://wiki.embeddedTS.com/wiki/TS-7680).   It has not been tested on any other systems and it is not expected that it will work (and possibly not even compile) as-is on any other boards.
 
 # Usage
 
